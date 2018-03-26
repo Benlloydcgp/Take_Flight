@@ -96,6 +96,8 @@ public class MenuScene : MonoBehaviour
         lastPreviewObject = GameObject.Instantiate(Manager.Instance.playerTrails[SaveManager.Instance.state.activeTrail]) as GameObject;
         lastPreviewObject.transform.SetParent(trailPreviewObject);
         lastPreviewObject.transform.localPosition = Vector3.zero;
+
+        //AdManager.Instance.ShowBanner();
     }
 
     private void Update()
