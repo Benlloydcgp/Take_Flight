@@ -67,8 +67,10 @@
      <Compile Include="Assets\Scripts\SaveState.cs" />
      <Compile Include="Assets\Scripts\SplashScreen.cs" />
      <Compile Include="Assets\Scripts\Token.cs" />
+     <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
      <None Include="Assets\Art\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Art\Spaceship\readme.txt" />
+     <None Include="Assets\Simple UI\Fonts\OFL.txt" />
      <None Include="Assets\Art\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Art\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Art\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
