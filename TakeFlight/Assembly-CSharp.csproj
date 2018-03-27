@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AudioManager.cs" />
+     <Compile Include="Assets\Menu.cs" />
+     <Compile Include="Assets\MusicManager.cs" />
      <Compile Include="Assets\Scripts\Chest.cs" />
      <Compile Include="Assets\Scripts\GameScene.cs" />
      <Compile Include="Assets\Scripts\Helper.cs" />
@@ -68,6 +71,7 @@
      <Compile Include="Assets\Scripts\SplashScreen.cs" />
      <Compile Include="Assets\Scripts\Token.cs" />
      <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
+     <Compile Include="Assets\SoundLibrary.cs" />
      <None Include="Assets\Art\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Art\Spaceship\readme.txt" />
      <None Include="Assets\Simple UI\Fonts\OFL.txt" />
