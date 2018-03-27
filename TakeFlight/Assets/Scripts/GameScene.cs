@@ -11,8 +11,8 @@ public class GameScene : MonoBehaviour
     private float fadeInDuration = 2;
     private bool gameStarted;
 
-    private Transform playerTransform;
     public Transform arrow;
+    private Transform playerTransform;
     public Objective objective;
 
     private void Start()
@@ -32,14 +32,14 @@ public class GameScene : MonoBehaviour
 
     private void Update()
     {
-       /* if (objective != null)
+        if (objective != null)
         {
             // if we have an objective rotate arrow 
             Vector3 dir = playerTransform.InverseTransformPoint(objective.GetCurrentRing().position);
             float a = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
             a += 180;
             arrow.transform.localEulerAngles = new Vector3(0, 180, a);
-        } */ 
+        } 
 
         if (Time.timeSinceLevelLoad <= fadeInDuration)
         {
