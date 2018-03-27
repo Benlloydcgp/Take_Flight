@@ -13,6 +13,8 @@ public class MenuCamera : MonoBehaviour
 
     public Transform shopWaypoint;
     public Transform levelWaypoint;
+    public Transform settingsWaypoint;
+    public Transform creditsWaypoint;
 
     private void Start()
     {
@@ -44,4 +46,17 @@ public class MenuCamera : MonoBehaviour
         desiredPosition = levelWaypoint.localPosition;
         desiredRotation = levelWaypoint.localRotation;
     }
+
+    public void MoveToSettings()
+    {
+        desiredPosition = settingsWaypoint.localPosition;
+        desiredRotation = settingsWaypoint.localRotation;
+    }
+
+    public void MoveToCredits()
+    {
+        desiredPosition = creditsWaypoint.localPosition;
+        desiredRotation = creditsWaypoint.localRotation;
+    }
+
 }

@@ -12,6 +12,8 @@ public class MenuScene : MonoBehaviour
 
     public RectTransform menuContainer;
     public Transform levelPanel;
+    public Transform settingsPanel;
+    public Transform creditsPanel;
 
     public Transform colorPanel;
     public Transform trailPanel;
@@ -78,7 +80,12 @@ public class MenuScene : MonoBehaviour
         // on click events to shop buttons
         Shop();
 
-        // on click even to level 
+        // on click events to settings button
+        Settings();
+
+        Credits();
+
+        // on click event to level 
         Level();
 
         // Set players pref
@@ -180,6 +187,40 @@ public class MenuScene : MonoBehaviour
 
     }
 
+    private void Settings()
+    {
+        if (settingsPanel == null)
+        {
+            Debug.Log("You did not assign the settings panel in the inspector");
+        }
+
+        int i = 0; 
+        foreach (Transform t in settingsPanel)
+        {
+            int currentIndex = i;
+
+            Button b = t.GetComponent<Button>();
+            b.onClick.AddListener(() => OnSettingsSelect(currentIndex));
+        }
+    }
+
+    private void Credits()
+    {
+        if (creditsPanel == null)
+        {
+            Debug.Log("You did not assign the credits panel in the inspector");
+        }
+
+        int i = 0;
+        foreach (Transform t in creditsPanel)
+        {
+            int currentIndex = i;
+
+            Button b = t.GetComponent<Button>();
+            b.onClick.AddListener(() => OnCreditsSelect(currentIndex));
+        }
+    }
+
     private void Level()
     {
         // Assign references 
@@ -249,6 +290,16 @@ public class MenuScene : MonoBehaviour
                 desiredMenuPosition = Vector3.left * 1280;
                 menuCam.MoveToShop();
                 break;
+            // Settings Menu
+            case 3:
+                desiredMenuPosition = Vector3.left * 2560;
+                menuCam.MoveToSettings();
+                break;
+            case 4:
+                desiredMenuPosition = Vector3.right * 2560;
+                menuCam.MoveToCredits();
+                break;
+
         }
     }
 
@@ -311,6 +362,16 @@ public class MenuScene : MonoBehaviour
     {
         NavigateTo(2);
         // Debug.Log("Shop Button Clicked");
+    }
+
+    public void OnSettingsClick()
+    {
+        NavigateTo(3);
+    }
+
+    public void OnCreditsClick()
+    {
+        NavigateTo(4);
     }
 
     public void OnBackClick()
@@ -419,6 +480,16 @@ public class MenuScene : MonoBehaviour
         //SceneManager.LoadScene("Game");
         isEnteringLevel = true;
         Debug.Log("Selecting level : " + currentIndex);
+    }
+
+    private void OnSettingsSelect(int currentIndex)
+    {
+
+    }
+
+    private void OnCreditsSelect(int currentIndex)
+    {
+       
     }
 
     public void OnColorBuySet()
