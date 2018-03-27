@@ -99,7 +99,3 @@ C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\obj\Debug\Assembly-CSharp.c
 C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\obj\Debug\Assembly-CSharp.dll
 C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\obj\Debug\Assembly-CSharp.pdb
 C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\Temp\bin\Debug\Facebook.Unity.dll
-C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\Temp\bin\Debug\Facebook.Unity.Gameroom.dll
-C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\Temp\bin\Debug\Facebook.Unity.Settings.dll
-C:\Users\benll\Desktop\GitHub\Take_Flight\TakeFlight\Temp\bin\Debug\FacebookNamedPipeClient.dll

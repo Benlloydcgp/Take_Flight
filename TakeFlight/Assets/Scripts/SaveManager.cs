@@ -25,7 +25,7 @@ public class SaveManager : MonoBehaviour
     // Save state of script to player pref 
     public void Save()
     {
-        PlayerPrefs.SetString("save", Helper.Serialize<SaveState>(state));
+        PlayerPrefs.SetString("save", Helper.Encrypt(Helper.Serialize<SaveState>(state)));
     }
 
     // Load the pervious save state from player pref 
@@ -33,7 +33,8 @@ public class SaveManager : MonoBehaviour
     {
         if (PlayerPrefs.HasKey("save"))
         {
-            state = Helper.Deserialize<SaveState>(PlayerPrefs.GetString("save"));
+            Debug.Log(PlayerPrefs.GetString("save"));
+            state = Helper.Deserialize<SaveState>(Helper.Decrypt(PlayerPrefs.GetString("save")));
         }
         else
         {
