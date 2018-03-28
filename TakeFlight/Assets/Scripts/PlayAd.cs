@@ -18,7 +18,7 @@ public class PlayAd : MonoBehaviour
         switch (result)
         {
             case ShowResult.Finished:
-                Debug.Log("Player Gains + 5 gems");
+                Debug.Log("Player watch the ad");
                 break;
             case ShowResult.Skipped:
                 Debug.Log("Player did not fully watch the ad");
