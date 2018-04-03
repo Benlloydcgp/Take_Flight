@@ -92,6 +92,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+a23889e127ca0721e16cdbacef762a9d Assembly-CSharp.dll:.SoundLibrary
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Ring
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -115,8 +116,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 732b9a824cbe1591c2eba2adacc3779d Assembly-CSharp.dll:.Manager
 fd54579d20ba3561929b4928a5af3dc0 Assembly-CSharp.dll:.Objective
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AudioManager
 06c2e0cb46f005a03ed664d8b1809d48 Assembly-CSharp.dll:.MenuCamera
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SplashScreen
+88260bded81072a70f893b9574ce3869 Assembly-CSharp.dll:.MusicManager
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -147,6 +150,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 dcbaebedf12c3274117e8c0222e65b5f Assembly-CSharp.dll:.Chest
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AudioManager
-88260bded81072a70f893b9574ce3869 Assembly-CSharp.dll:.MusicManager
-a23889e127ca0721e16cdbacef762a9d Assembly-CSharp.dll:.SoundLibrary
+4c4e5bbdfb8b8f4d80c5ad7176b30d43 Assembly-CSharp.dll:.RandomRotator
