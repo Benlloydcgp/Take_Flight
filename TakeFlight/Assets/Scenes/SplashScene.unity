@@ -730,16 +730,16 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0.31617647, g: 0.31617647, b: 0.31617647, a: 1}
   playerTrails:
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
-  - {fileID: 1153184726458110, guid: cb38020fa609f314493f8d37736364a1, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentLevel: 0
   menuFocus: 0
 --- !u!4 &2041781557

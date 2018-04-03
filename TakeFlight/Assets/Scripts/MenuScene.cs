@@ -63,6 +63,7 @@ public class MenuScene : MonoBehaviour
             tiltControlButton.gameObject.SetActive(false);
         }
 
+
         // Find the menu camera 
         menuCam = FindObjectOfType<MenuCamera>();
 
@@ -104,7 +105,6 @@ public class MenuScene : MonoBehaviour
         lastPreviewObject.transform.SetParent(trailPreviewObject);
         lastPreviewObject.transform.localPosition = Vector3.zero;
 
-        //AdManager.Instance.ShowBanner();
     }
 
     private void Update()
@@ -336,9 +336,9 @@ public class MenuScene : MonoBehaviour
         currentTrail.transform.SetParent(FindObjectOfType<MenuPlayer>().transform);
 
         // Fix scale issues 
-        currentTrail.transform.localPosition = Vector3.zero;
-        currentTrail.transform.localRotation = Quaternion.Euler(0, 0, 90);
-        currentTrail.transform.localScale = Vector3.one * 0.01f;
+        //currentTrail.transform.localPosition = Vector3.zero;
+        //currentTrail.transform.localRotation = Quaternion.Euler(0, 0, 90);
+        //currentTrail.transform.localScale = Vector3.one * 0.01f;
 
         // change buy/set button text
         trailBuySetText.text = "Current";
